@@ -1,9 +1,9 @@
 <?php
 /* Database connection settings */
-$host = '35.188.185.151';
-$user = 'root';
-$pass = 'JAVLEN';
-$db = 'db';
+$host = 'localhost';
+$user = 'admin_javlen';
+$pass = 'csci3308';
+$db = 'admin_db';
 $mysqli = new mysqli($host,$user,$pass,$db) or die($mysqli->error);
 
 ?>
